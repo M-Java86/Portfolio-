@@ -1,0 +1,287 @@
+/* color palette
+--satin-sheen-gold: #cda14bff;
+--rich-black-fogra-39: #020202ff;
+--twilight-lavender: #774c60ff;
+--white: #ffffffff;
+--tuscany: #cea2acff; */
+
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: Helvetica, sans-serif;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* background colors */
+.bg-gold {
+    background-color: #cda14bff;
+}
+.bg-rich-black {
+    background-color: #020202ff;
+}
+.bg-lavender {
+    background-color: #774c60ff;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-tuscany {
+    background-color: #cea2acff;
+}
+
+
+/* text colors */
+.text-gold {
+    color: #cda14bff;
+}
+.text-rich-black {
+    color: #020202ff;
+}
+.text-lavender {
+    color: #774c60ff;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-tuscany {
+    color: #cea2acff;
+}
+
+/* fonts */
+.font-playfair-reg {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.font-playfair-reg-italic {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400 italic;
+}
+.font-playfair-semibold {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.font-playfair-bold1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+/* .font-playfair-bold2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+} */
+.font-poiret {
+    font-family: 'Poiret One', cursive;
+}
+
+.font-code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+nav {
+    border-bottom: 0.5px solid rgba(119, 76, 96, 0.2) 
+}
+
+.nav-link {
+    color:#020202ff;
+}
+.nav-link:hover {
+    color:#774c60ff;
+    border-bottom: 0.5px solid #020202ff;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+}
+.navbar-brand:hover {
+    color:#774c60ff;
+}
+
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-main {
+    font-size: 8rem;
+}
+
+.fa-angle-up {
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+hr {
+    color: #774c60ff;
+}
+
+.headshot {
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+    border-radius: 5px;
+}
+
+.body-link {
+    color:#774c60ff;
+    text-decoration: none;
+}
+
+.body-link:hover {
+    color: #cda14bff;
+}
+
+.footer-link {
+    color:#774c60ff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link:hover {
+    color:#cda14bff;
+    border-bottom: 0.5px solid #020202ff;
+}
+
+.lb-img {
+    box-shadow: 2px 2px 2px 1px rgba(206, 162, 172, 0.2);
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.button-link, .badge-link, .badge-link-special {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.button-link:hover {
+    color: rgb(37, 37, 37);
+}
+.badge-link:hover {
+    color: #cea2acff;
+}
+.badge-link-special:hover {
+    color: rgb(235, 186, 89);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #774c60ff;
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #cea2acff;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #cda14bff;
+}
+
+/* back to top button */
+#toTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #020202ff;
+    opacity: 80%;
+    color: white;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#toTop:hover {
+    background-color: #555555; /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 425px) {
+    .h5 {
+        font-size: 0.7rem;
+    }
+    .header-main {
+        font-size: 3rem;
+    }
+    .meme {
+        max-width: 100%;
+    }
+    .blockquote {
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .header-main {
+        font-size: 5rem;
+    }
+    .blockquote {
+        font-size: 1.7rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .lb-img {
+        max-width: 300px
+    }
+
+    .h5 {
+        font-size: 1rem;
+    }
+
+    .headshot {
+        max-height: 400px;
+        max-width: 275px;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1023px) {
+    .h5 {
+        font-size: 1.2rem;
+    }
+
+    .headshot {
+        max-height: 350px;
+    }
+    .blockquote {
+        font-size: 2.0rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .headshot {
+        max-height: 350px;
+    }
+    .blockquote {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
+}
