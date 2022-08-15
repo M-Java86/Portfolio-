@@ -36,8 +36,8 @@ Hosting: <br>
 ---
 ## Developer
 
-Victoria Walker:
-- https://github.com/v-walker
+Michelle Owens:
+- https://github.com/m-java86
 - Layout/Design
 - Development
 - Deployment
