@@ -23,15 +23,7 @@ Hosting: <br>
 
 ---
 
-## Screenshots
-
-![Full-screen image of header]
-
-![Full-screen image of header]
-
-![Full-screen image of header]
-
-![Full-screen image of header]
+## Screenshots- COMING SOON!!!
 
 ---
 ## Developer
