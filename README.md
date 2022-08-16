@@ -25,13 +25,13 @@ Hosting: <br>
 
 ## Screenshots
 
-![Full-screen image of header](C:\Users\Mpyth\Git-Repos\Michelle Owens Portfolio\images)
+![Full-screen image of header]
 
-![Full-screen image of header](images/full-sizeSS_highlightedprojects.png)
+![Full-screen image of header]
 
-![Full-screen image of header](images/mobileSS_header.png)
+![Full-screen image of header]
 
-![Full-screen image of header](images/mobileSS_techskills.png)
+![Full-screen image of header]
 
 ---
 ## Developer
