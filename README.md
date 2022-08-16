@@ -1,6 +1,6 @@
 # Personal Portfolio Site
 
-Deployed site: [thevictoriawalker.dev](https://thevictoriawalker.dev/)
+Deployed site: https://michelleowens-portfolio.netlify.app/ 
 
 A light-weight and responsive personal portfolio site develped to showcase selected applications I have built recently as well as to share a bit about me, my software development journey, my skillset, and my resume. Featured projects include team and individual projects.
 
@@ -23,21 +23,13 @@ Hosting: <br>
 
 ---
 
-## Screenshots
-
-![Full-screen image of header](images/full-sizeSS_header.png)
-
-![Full-screen image of header](images/full-sizeSS_highlightedprojects.png)
-
-![Full-screen image of header](images/mobileSS_header.png)
-
-![Full-screen image of header](images/mobileSS_techskills.png)
+## Screenshots- COMING SOON!!!
 
 ---
 ## Developer
 
-Victoria Walker:
-- https://github.com/v-walker
+Michelle Owens:
+- https://github.com/m-java86
 - Layout/Design
 - Development
 - Deployment
