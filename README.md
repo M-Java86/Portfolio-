@@ -25,7 +25,7 @@ Hosting: <br>
 
 ## Screenshots
 
-![Full-screen image of header](images/full-sizeSS_header.png)
+![Full-screen image of header](C:\Users\Mpyth\Git-Repos\Michelle Owens Portfolio\images)
 
 ![Full-screen image of header](images/full-sizeSS_highlightedprojects.png)
 
